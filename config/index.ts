@@ -1,0 +1,35 @@
+import type { Metadata } from "next";
+
+export const siteConfig: Metadata = {
+  title: "Space Portfolio",
+  description: "Welcome to my full stack space portfolio.",
+  keywords: [
+    "reactjs",
+    "nextjs",
+    "react",
+    "space-portfolio",
+    "portfolio",
+    "react-icons",
+    "3d-portfolio",
+    "3d-website",
+    "sonner",
+    "framer-motion",
+    "motion",
+    "animation",
+    "heroicons",
+    "next-themes",
+    "postcss",
+    "react-dom",
+    "tailwindcss",
+    "tailwindcss-animate",
+    "ui/ux",
+    "js",
+    "javascript",
+    "html",
+    "css",
+  ] as Array<string>,
+  authors: {
+    name: "Vaishnavi",
+    url: "https://github.com",
+  },
+} as const;
